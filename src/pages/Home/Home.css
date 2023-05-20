@@ -1,0 +1,9 @@
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gray-bg{
+    background-color: #ededed50;
+    padding: 10px;
+}

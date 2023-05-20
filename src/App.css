@@ -1,17 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
+
+
+/* Global CSS */
+
+* {
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   border-radius: 5px;
   padding: 2px 10px;
 }
 
-a:hover{
+a:hover {
   background-color: rgba(211, 211, 211, 0.582);
+}
+
+
+i {
+  opacity: 0.7;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  font-size: 12px;
+  font-style: italic;
+}
+
+input:focus-visible {
+  outline: none;
+  border: none;
+}
+
+select:focus-visible {
+  outline: none;
+  border: none;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+
+.textarea-contain::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.textarea-contain::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.textarea-contain::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 200px;
+  background-color: rgb(230, 230, 230);
 }
