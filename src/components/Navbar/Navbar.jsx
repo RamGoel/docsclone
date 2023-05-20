@@ -17,28 +17,29 @@ function Navbar() {
 
 
         return ()=>clearTimeout(newTimeout)
+        //eslint-disable-next-line
     },[pageData.docName])
 
     const [isSharing, setSharing] = useState(false)
     return (
         <div className='infobar'>
             <div id='navbar-left'>
-                <img src='https://cdn-icons-png.flaticon.com/512/5968/5968517.png' width={40} />
+                <img alt='smdkms' src='https://cdn-icons-png.flaticon.com/512/5968/5968517.png' width={40} />
                 <div>
                     <div>
                         <input value={pageData.docName} onChange={(e) => setData({ docName: e.target.value })} />
-                        <img width={15} src='https://static.vecteezy.com/system/resources/previews/010/158/762/non_2x/star-icon-sign-symbol-design-free-png.png' />
+                        <img alt='sndjnsd' width={15} src='https://static.vecteezy.com/system/resources/previews/010/158/762/non_2x/star-icon-sign-symbol-design-free-png.png' />
                     </div>
                     <div>
                         <ul>
-                            <li><a href='#'>File</a></li>
-                            <li><a href='#'>Edit</a></li>
-                            <li><a href='#'>View</a></li>
-                            <li><a href='#'>Insert</a></li>
-                            <li><a href='#'>Format</a></li>
-                            <li><a href='#'>Tools</a></li>
-                            <li><a href='#'>Extension</a></li>
-                            <li><a href='#'>Help</a></li>
+                            <li><a href='#asjdn'>File</a></li>
+                            <li><a href='#asjdn'>Edit</a></li>
+                            <li><a href='#asjdn'>View</a></li>
+                            <li><a href='#asjdn'>Insert</a></li>
+                            <li><a href='#asjdn'>Format</a></li>
+                            <li><a href='#asjdn'>Tools</a></li>
+                            <li><a href='#asjdn'>Extension</a></li>
+                            <li><a href='#asjdn'>Help</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +49,7 @@ function Navbar() {
                 <i className='fa fa-message'></i>
                 <i className='fa fa-camera'></i>
                 <button className='share-btn' onClick={() => {
-                    if(isSharing==false){
+                    if(isSharing===false){
                         copyURLToClipboard()
                         setSharing(true)
                     }

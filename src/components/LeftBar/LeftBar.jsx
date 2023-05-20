@@ -1,10 +1,6 @@
-import React, { useState } from 'react'
-import Toolbar from '../Toolbar/Toolbar'
-import TextPage from '../TextArea/TextArea'
-import Navbar from '../Navbar/Navbar'
+import React from 'react'
 import './LeftBar.css'
 function LeftBar() {
-  const [fontSize, setSize] = useState(10)
   return (
 
     <div style={{
