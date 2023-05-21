@@ -19,7 +19,7 @@ function Toolbar({ value, onFontSizeChange }) {
                     <i onClick={()=>handleClick('2')} className={`${selected.includes('2') ? 'selected-icon' : ''} fa fa-redo`}></i>
                     <i className={`fa fa-print`} onClick={() => window.print()}></i>
                     <i onClick={()=>handleClick('4')} className={`${selected.includes('4') ? 'selected-icon' : ''} fa fa-spell-check`}></i>
-                    <i onClick={()=>handleClick('5')} className={`${selected.includes('5') ? 'selected-icon' : ''} fa fa-brush`}></i>
+                    <i onClick={()=>handleClick('5')} className={`${selected.includes('5') ? 'selected-icon' : ''} fa fa-paint-roller`}></i>
                 </div>
                 <div className='toolbar-drop'>
                     <select>
@@ -77,8 +77,8 @@ function Toolbar({ value, onFontSizeChange }) {
                     <i onClick={()=>handleClick('13')} className={`${selected.includes('13') ? 'selected-icon' : ''} fa fa-regular fa-message`}></i>
                     <i onClick={()=>handleClick('14')} className={`${selected.includes('14') ? 'selected-icon' : ''} fa fa-image`}></i>
                     <div className='toolbar-break'></div>
-                    <i onClick={()=>handleClick('15')} className={`${selected.includes('15') ? 'selected-icon' : ''} fa fa-filter`}></i>
-                    <i onClick={()=>handleClick('16')} className={`${selected.includes('16') ? 'selected-icon' : ''} fa fa-sort`}></i>
+                    <i onClick={()=>handleClick('15')} className={`${selected.includes('15') ? 'selected-icon' : ''} fa fa-align-right`}></i>
+                    <i onClick={()=>handleClick('16')} className={`${selected.includes('16') ? 'selected-icon' : ''} fa fa-text-height`}></i>
                     <i onClick={()=>handleClick('17')} className={`${selected.includes('17') ? 'selected-icon' : ''} fa fa-ellipsis-v`}></i>
                 </div>
             </div>
