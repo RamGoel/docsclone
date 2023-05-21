@@ -3,7 +3,9 @@
     justify-content: space-around;
 }
 
-.gray-bg{
+.edit-section{
     background-color: #ededed50;
     padding: 10px;
+    width: 90vw;
+    display: flex
 }

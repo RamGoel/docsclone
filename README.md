@@ -13,10 +13,11 @@ Clone of Page Editing Screen of Google Docs.
 - Copy Document Link when clicked on share.
 - External Link redirect when clicked on app-shortcuts on sidebar.
 - Select Toolbar Icons on clicked
+- Set Document Favourite/Unfavourite by clicking on star.
 - Hover Effect on Each Toolbar Icon & App shortcuts
 - Document Name Edit Option
 - Choose Font Styles, Families using Dropdowns.
-
+- If you set document name empty, automatically set it to untitled document 2 second later
 
 
 ## Setup

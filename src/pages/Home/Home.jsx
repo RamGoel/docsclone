@@ -12,10 +12,7 @@ function Home() {
             <div>
             <Navbar />
             <Toolbar value={fontSize} onFontSizeChange={(value) => setSize(value)} />
-            <div className='gray-bg' style={{
-                width: '90vw',
-                display: 'flex',
-            }}>
+            <div className='edit-section'>
                 <LeftBar />
                 <TextPage fontSize={fontSize} />
             </div>

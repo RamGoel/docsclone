@@ -74,7 +74,7 @@ function Toolbar({ value, onFontSizeChange }) {
                     <i onClick={()=>handleClick('11')} className={`${selected.includes('11') ? 'selected-icon' : ''} fa fa-pencil`}></i>
                     <div className='toolbar-break'></div>
                     <i onClick={()=>handleClick('12')} className={`${selected.includes('12') ? 'selected-icon' : ''} fa fa-link`}></i>
-                    <i onClick={()=>handleClick('13')} className={`${selected.includes('13') ? 'selected-icon' : ''} fa fa-message`}></i>
+                    <i onClick={()=>handleClick('13')} className={`${selected.includes('13') ? 'selected-icon' : ''} fa fa-regular fa-message`}></i>
                     <i onClick={()=>handleClick('14')} className={`${selected.includes('14') ? 'selected-icon' : ''} fa fa-image`}></i>
                     <div className='toolbar-break'></div>
                     <i onClick={()=>handleClick('15')} className={`${selected.includes('15') ? 'selected-icon' : ''} fa fa-filter`}></i>

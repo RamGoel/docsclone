@@ -8,6 +8,7 @@
 #navbar-left{
     width: 50%;
     display: flex;
+    align-items: center;
 }
 
 .infobar>div>div>div{
@@ -21,17 +22,18 @@
     border: none;
 }
 
-.infobar>div>div>div>ul{
+.infobar>div>div>div>div{
     display: flex;
     align-items: center;
     list-style-type: none;
     margin-top: 3px;
 }
 
-.infobar>div>div>div>ul>li{
+.infobar>div>div>div>div>a{
     margin: 0px;
-    margin-right: 7px;
-    font-size: 12px;
+    font-size: 14px;
+    padding-right:3px;
+    letter-spacing: .2px;
 }
 
 .infobar button{
@@ -63,4 +65,8 @@
 
 .mr-2{
     margin-right: 5px;
+}
+
+.favourited{
+    color: rgb(0, 85, 255);
 }
