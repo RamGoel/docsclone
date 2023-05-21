@@ -29,6 +29,9 @@ i {
   opacity: 0.7;
 }
 
+
+
+/* css to hide border/outline around the inputs  */
 textarea {
   border: none;
   resize: none;
@@ -51,6 +54,8 @@ textarea:focus-visible {
 }
 
 
+
+/* css to modify look of scrollbar */
 .textarea-contain::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #F5F5F5;

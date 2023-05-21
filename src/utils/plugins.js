@@ -1,3 +1,4 @@
+// function to copy URL to clipboard
 export function copyURLToClipboard() {
     var url = window.location.href;
 
